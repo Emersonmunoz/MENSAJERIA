@@ -1,0 +1,162 @@
+/*configuraciones al contenedor padre*/
+body {
+   margin: 0;
+
+}
+main {
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    background-color:burlywood;
+}
+/*ajustes a contactos*/
+
+
+menu {
+    display: flex;
+    margin: 0 0; 
+    width:25em;
+    background-color: rgb(151, 148, 148);
+    list-style-type:none;
+    margin-block-start: 0px;
+  padding-inline-start: 0px;
+  border-right:#11eeff;
+  justify-content: space-between;
+    
+   
+}
+
+menu ul {
+    list-style-type:none;
+    margin-block-start: 0px;
+  padding-inline-start: 0px;
+  margin-inline: center;
+    
+}
+
+menu li {
+    width: 100%;
+    list-style: none;
+    display:flex;
+     list-style: none;
+     justify-content: space-between;
+     align-content: space-around;
+    margin: 0 5px;
+}
+
+menu a  {
+    display: inline;
+    text-decoration:none; 
+    font-size: 22px;
+    color:rgb(98, 97, 97);
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+menu a:hover {
+    color: rgb(11, 4, 229);
+}
+
+
+.status {
+    width: 100%;
+    margin: 0;
+    padding-left: 28px;
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+   font-size: 1.2em;
+
+}
+div .espacio{
+    width: 100;
+    margin-left: 50px;
+    
+}
+div .msj {
+    width: 100%;
+   align-items: last baseline;
+    display: block;
+    justify-content: start;
+   flex-direction: row;
+   margin-left: 50px;
+}
+/*ajustes a la seccion principal*/
+.principal {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+/*propiedades a titulos y parrafos de la seccion principal*/
+h1 {
+    margin:0 0;
+    padding: 14px 0 0 0;
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+p {
+    width: 45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center; 
+    align-items: center;
+    text-align: justify;
+    font-size: 16.5px;
+}
+/*propiedades para imagen */
+.img {
+    width:30vh;
+    height: 30vh;
+    margin-top: 45vh;
+   
+}
+.fotoPerfil {
+    display: inline;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(235, 144, 7);
+    vertical-align: middle;
+   padding-left: 0%;
+   margin: 0 0;
+}
+
+
+.etiqueta {
+    display: flex;
+    width: 100%;
+    margin: 0 0;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: rgb(89, 89, 87);
+    opacity: 0.4px;
+    vertical-align: middle;
+    
+  }
+
+  .submit {
+    display: flex;
+    width: 200px;
+    padding: 1em 1em;
+    margin: 4em 2em;
+    height: 2.5em;
+   
+    background-color: #11eeff;
+   
+    border-color: rgb(250, 247, 247);
+    text-align: center;
+    vertical-align: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  } 
+
+ .recuadroMenu {
+    height: 98%;
+ }
